@@ -5,7 +5,7 @@
  */
 import { FC, ReactNode, useContext, createContext } from 'react';
 import { TodoType } from '../interfaces/Todo';
-import { useTodo } from '../hooks/useTodo.js';
+import { useTodo } from '../hooks/useTodo';
 
 type Props = {
   children: ReactNode

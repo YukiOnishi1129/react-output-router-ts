@@ -4,7 +4,7 @@
  * @package hooks
  */
 import { useState, useCallback } from 'react';
-import { INIT_TODO_LIST, INIT_UNIQUE_ID } from '../constants/data.js';
+import { INIT_TODO_LIST, INIT_UNIQUE_ID } from '../constants/data';
 
 /**
  * useTodo
