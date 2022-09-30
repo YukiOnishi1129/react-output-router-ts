@@ -12,7 +12,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { TodoType } from '../../../interfaces/Todo';
 import { useTodoList } from './useTodoList';
-import styles from './style.module.css';
+import styles from './styles.module.css';
 
 type Props = {
   todoList: Array<TodoType>
