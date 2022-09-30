@@ -1,4 +1,5 @@
-# react-output-index
+# react-output-router-ts
+
 Reactアウトプットサンプル
 
 TypeScriptを使用
@@ -10,8 +11,8 @@ react-index-dom用いてSPA構成にしたアプリケーション
 urlはこちら
 https://yukionishi1129.github.io/react-output-router-ts/
 
-
 ## 目次
+
 1. 環境構築
 2. アプリケーションの仕様
 
@@ -40,6 +41,7 @@ yarn dev
 ## 2. アプリケーションの仕様
 
 ### 2-1. 仕様
+
 - Todoリスト
     - Todo一覧表示
     - Todo検索処理
@@ -49,6 +51,7 @@ yarn dev
     - Todo削除処理
 
 ### 2-2. 構成技術
+
 - typescript: 4.6.4
 - react: 18.2.0
 - react-dom: 18.2.0
