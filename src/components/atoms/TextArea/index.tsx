@@ -1,37 +1,33 @@
 /**
- * InputForm
+ * TextArea
  *
  * @package components
  */
 import { FC } from 'react';
 import styles from './styles.module.css';
 
-type Props = JSX.IntrinsicElements['input']
+type Props = JSX.IntrinsicElements['textarea']
 
 /**
- * InputForm
+ * TextArea
  * @param disabled
  * @param value
  * @param placeholder
  * @param onChange
- * @param onKeyDown
  * @constructor
  */
-export const InputForm: FC<Props> =
+export const TextArea: FC<Props> =
   ({
-     disabled = false,
+     disabled,
      value,
      placeholder,
-     onChange,
-     onKeyDown
+     onChange
    }) => (
-    <input
+    <textarea
       disabled={disabled}
-      className={styles.input}
-      type='text'
-      placeholder={placeholder}
+      className={styles.text}
       value={value}
+      placeholder={placeholder}
       onChange={onChange}
-      onKeyDown={onKeyDown}
     />
   );
